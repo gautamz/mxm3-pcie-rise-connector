@@ -18,4 +18,12 @@ A connector to bridge a MXM port and a standard PCIe port
 2) High frequency PCB trace routing is more than tough. Though this endeavor maybe simpler
 
 # Progress
+29 Jan 2018 - Have worked out solutions to mapping PWR_GOOD, PEX_STD_SW and PEX_RST pins for MXM. 
+- PWR_GOOD to connect to 3.3V source through a 10K_04 resistor. 
+- PEX_STD_SW to connect to ground. 
+- PEX_RST on MXM to connect to PERST on PCIe.
+
+Also I think I can map the DP port pins for MXM to a DP female port. Then I can just take a Display Port cable out from the eGPU and plug it into the connector to feed the signal back to the laptop. The same can also be done for HDMI.
+Now on to making the PCB layout...
+
 28 Jan 2018 - Have managed to get MXM v3.0 pinout and PCIe pinouts. Reading GPU manuals and public guide notes have worked out most(?) of the MXM-PCIe connections that should work. Need more clarifications for MXM pins PWR_GOOD, PEX_STD_SW# & PEX_RST# and PCIe pin PERST#. Uploaded spreadsheet with the pinout tables and the potential pin mappings.
