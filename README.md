@@ -5,10 +5,10 @@ A connector to bridge a MXM port and a standard PCIe port
 Extend the life of my laptop by 1-2years and delay a system upgrade so that I can avoid CPUs with potential Meltdown/Spectre vulnerabilities.
 
 # Plan
-1) Work out what pins on the MXM connector are needed to connect to a PCIe riser to make a GPU run at x16 PCIe speeds
-  a) [optional side goals] 
-      ( i) Work out the correspondence between the pinout of a Displayport to eDP converter so that I can route the GPU video 
-           output back to laptop screen. This may save on PCIe bandwidth in trying to get the video back through PCIe
+1) Work out what pins on the MXM connector are needed to connect to a PCIe riser to make a GPU run at x16 PCIe speeds  
+    ~optional side goals  
+      (i) Work out the correspondence between the pinout of a Displayport to eDP converter so that I can route the GPU video 
+           output back to laptop screen. This may save on PCIe bandwidth in trying to get the video back through PCIe  
       (ii) Work out how to shield PCIe extender ribbon cables. Shielded cables can be quite expensive
 3) Build a PCB design
 4) Print PCB and test
