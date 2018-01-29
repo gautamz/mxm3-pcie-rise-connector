@@ -1,10 +1,10 @@
 # mxm3-pcie-rise-connector
 A connector to bridge a MXM port and a standard PCIe port
 
-# Motivation - 
+# Motivation 
 Extend the life of my laptop by 1-2years and delay a system upgrade so that I can avoid CPUs with potential Meltdown/Spectre vulnerabilities.
 
-# Plan -
+# Plan
 1) Work out what pins on the MXM connector are needed to connect to a PCIe riser to make a GPU run at x16 PCIe speeds
   a) [optional side goals] 
       ( i) Work out the correspondence between the pinout of a Displayport to eDP converter so that I can route the GPU video 
